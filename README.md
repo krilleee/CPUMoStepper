@@ -20,4 +20,4 @@ Refurbishing an old pressure clock and integrating a stepper motor, which will b
 
 ## Diagram
 
-![Diagram](stepper/stepper.png)
+![Diagram](stepper/diagram.png)
