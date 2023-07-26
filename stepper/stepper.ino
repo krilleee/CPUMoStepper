@@ -17,16 +17,14 @@ void setup()
   delay(1000);
 }
 
-// First CPU Test
+// Receve value from Pyhon program
 void loop() {
   if (Serial.available())
   {
     String a = Serial.readString();
     Serial.print("CPU Use %: ");
     Serial.println(a);
-
     int b = a.toInt();
-
     stepper.Move(b, OUTPUT);
     delay(2000);
   }
