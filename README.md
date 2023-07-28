@@ -11,7 +11,7 @@ Refurbishing an old pressure clock and integrating a stepper motor, which will b
 ## Instructions
 
 1. Start the Aduino and write the stepper program stepper.ino
-2. Run calibrate_clock.py to calibrate the the motor
+2. Set com port in calibrate_clock.py and start it to calibrate the the motor
     1. right arrowkey 1 degree clockwise and left 1 degree counterclockwise
     2. up arrowkey 10 degree clockwise and down 10 degree counterclockwise
     3. enter key for custom value
